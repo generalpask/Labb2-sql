@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>labb2-sql console</title>
+		<link rel="stylesheet" href="stylesheets/main.css">
+		<script defer src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+		<script defer src="js/main.js"></script>
+	</head>
+	<body>
+		<div class="main">
+			<pre class="table">
+
+			</pre>
+			<div class="console">
+				<form class="sqlform">
+					<h1>labb2-sql console</h1>
+					<div class="inputs">
+						<div class="left">
+							<input type="text" name="id" placeholder="id">
+							<input type="text" name="name" placeholder="name">
+							<input type="text" name="url" placeholder="url">
+							<textarea type="text" name="postText" placeholder="text"></textarea>
+							<button type="submit" class="submitsql" placeholder="submit">Submit</button>
+						</div>
+						<div class="right">
+							<div class="radio">
+								<input type="radio" name="type" value="POST"> POST (id auto)
+							</div>
+							<div class="radio">
+								<input type="radio" name="type" value="PUT"> PUT (id req)
+							</div>
+							<div class="radio">
+								<input type="radio" name="type" value="DELETE"> DELETE (id req)
+							</div>
+						</div>
+					</div>
+				</form>
+				<h2 class="status">Status</h2>
+				<span class="info"></span>
+			</div>
+		</div>
+	</body>
+</html>

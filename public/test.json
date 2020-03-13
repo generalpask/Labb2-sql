@@ -1,0 +1,26 @@
+[
+    {
+        "id": 2,
+        "name": "Test post",
+        "url": "testurl.com",
+        "postText": "This is a test post in database:labb2-sql>>table:posts"
+    },
+        {
+        "id": 3,
+        "name": "Test post 2",
+        "url": "testurl.com/2",
+        "postText": "This is another test post in database:labb2-sql>>table:posts"
+    },
+    {
+        "id": 4,
+        "name": "curlposttest-name",
+        "url": "curlposttest-url",
+        "postText": "curlposttest-text"
+    },
+    {
+        "id": 5,
+        "name": "EDITED TEST",
+        "url": "",
+        "postText": ""
+    }
+]

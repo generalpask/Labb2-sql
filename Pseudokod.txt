@@ -1,0 +1,8 @@
+Bygg en grundläggande express-server
+	Importera moduler
+	Sätt upp middleware
+	Grundroute för '/'
+	Definiera förvaring för posts och kommentarer
+
+Definiera get-, post-, put-, och delete-routes för posts och kommentarer i separata filer och inkludera i servern
+	Ta in posts/kommentarer i en request-body, hantera dem och spara dem i fördefinierat storage (eller ändra/ta bort dem)
